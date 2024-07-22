@@ -1,0 +1,15 @@
+{
+  "name": "email-sender-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["email trigger", "email", "send email" ],
+  "author": "mateussales98",
+  "license": "ISC",
+  "description": "simples email trigger ",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
