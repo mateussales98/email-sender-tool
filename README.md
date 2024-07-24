@@ -11,3 +11,5 @@ let to
 let subject
 let html
 ```
+
+The nodemailer is setting to work with outlook. 

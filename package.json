@@ -5,11 +5,16 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["email trigger", "email", "send email" ],
+  "keywords": [
+    "email trigger",
+    "email",
+    "send email"
+  ],
   "author": "mateussales98",
   "license": "ISC",
   "description": "simples email trigger ",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "nodemailer": "^6.9.14"
   }
 }
