@@ -12,7 +12,8 @@ let html = `
 async function send(user, pass, to, subject, html) {
 	try {
 		console.log(`Tentando enviar para: ${process.env.TO}.
-			Aguarde...`)
+
+Aguarde...`)
 		const transporter = nodemailer.createTransport({
 			host: 'smtp.office365.com',
 			port: 587,
@@ -26,6 +27,7 @@ async function send(user, pass, to, subject, html) {
 		const mailOptions = { from: user, to, subject, html }
 
 		let test = await transporter.sendMail(mailOptions)
+		console.log(test)
 		return test
 	} catch (error) {
 		console.error(error)
